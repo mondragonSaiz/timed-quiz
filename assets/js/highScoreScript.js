@@ -36,7 +36,7 @@ function renderHighScores() {
 
 //Here we are re-directing the user to the main index page
 goBackBTN.on("click", function () {
-  window.location.assign("/index.html");
+  window.location.assign("index.html");
 });
 
 // Here, listening the click of the clear highscores button and

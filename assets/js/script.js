@@ -237,5 +237,5 @@ function submitInitials(event) {
   console.log(initials);
   localStorage.setItem("scoreInfo", JSON.stringify(highScoreArray));
 
-  window.location.replace("/highScores.html");
+  window.location.replace("highScores.html");
 }

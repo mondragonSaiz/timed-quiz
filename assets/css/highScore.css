@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 3vw;
+}
+
+li {
+  background-color: rgba(160, 117, 189, 0.445);
+  font-size: 1.2vw;
+  max-width: 400px;
+  padding: 1%;
+  margin-left: 40%;
+  text-align: left;
+  list-style-position: inside;
+  margin-bottom: 1rem;
+}
+
+.page-wrapper {
+  margin: 5% 0 10% 0;
+  padding: 5% 15px 15% 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  border-radius: 0.5rem;
+  background-color: rgb(95, 20, 165);
+  color: antiquewhite;
+  font-size: 1vw;
+  cursor: pointer;
+}

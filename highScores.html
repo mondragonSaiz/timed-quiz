@@ -4,24 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/assets/css/highScore.css" />
     <title>Document</title>
   </head>
   <body>
-    <header id="header-section">
-      <a href="/highScores.html">View high scores</a>
-      <div>time: <span id="timer-count" type="number">60</span></div>
-    </header>
-    <div id="root">
-      <button id="boton">Start Quiz</button>
+    <div class="page-wrapper">
+      <h1>High scores</h1>
+      <div id="root"></div>
+      <button class="goback-button">Go back</button>
+      <button class="clear-button">Clear highs scores</button>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="/assets/js/highScoreScript.js"></script>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="/assets/js/script.js"></script>
   </body>
 </html>

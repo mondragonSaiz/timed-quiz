@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 6% 15px 6%;
+  font-size: 1.5vw;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+header a {
+  text-decoration: none;
+  justify-content: flex-start;
+  color: rgb(154, 64, 238);
+}
+
+header a:hover {
+  color: rgb(40, 40, 122);
+}
+
+header div {
+  justify-content: flex-end;
+}
+
+p {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+button {
+  padding: 20px;
+  border-radius: 0.5rem;
+  background-color: rgb(95, 20, 165);
+  color: antiquewhite;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+
+.submit-btn {
+  font-size: 1rem;
+  padding: 10px;
+  margin-left: 1rem;
+}
+
+button:hover {
+  background-color: rgb(131, 47, 209);
+}
+ul {
+  line-height: 2;
+}
+li {
+  min-width: 335px;
+  min-height: 75px;
+  list-style: decimal;
+  list-style-position: inside;
+  text-align: start;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 18px;
+  font-size: 1.6vw;
+  background-color: rgb(95, 20, 165);
+  color: antiquewhite;
+  cursor: pointer;
+}
+li:hover {
+  background-color: rgb(131, 47, 209);
+}
+
+hr {
+  width: 50%;
+  border-width: 1px;
+}
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 600px;
+  min-height: 800px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card ul {
+  margin-right: 16%;
+}
+
+.hiddenBTN {
+  visibility: hidden;
+}
+
+.sb-btn {
+  visibility: hidden;
+}
+
+.message-class {
+  padding-right: 40%;
+  opacity: 0.6;
+  font-size: 2vw;
+}
+
+.score-section {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.score-msg {
+  font-size: 2vw;
+  margin-right: 15px;
+}
+/* .root-class{
+
+} */
